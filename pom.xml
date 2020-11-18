@@ -9,7 +9,7 @@
     <parent>
         <groupId>org.apache.nifi</groupId>
         <artifactId>nifi-nar-bundles</artifactId>
-        <version>1.8.0</version>
+        <version>1.12.1</version>
     </parent>
 
     <groupId>cc.datafabric.nifi</groupId>
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-dataflow</artifactId>
-            <version>v1b3-rev224-1.23.0</version>
+            <version>v1b3-rev302-1.25.0</version>
             <exclusions>
                 <!-- Exclude an old version of guava that is being pulled
                      in by a transitive dependency of google-api-client -->
